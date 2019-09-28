@@ -1,0 +1,19 @@
+take input from user of string to decrypt
+
+convert into list for each word
+
+so might have to do something like if it finds a space, assign the subsequent values to a new list
+
+at this point you will have a list of words
+
+then you will have to count each character in each list to get how big each word is.
+
+so then you should have a list of lists; a list of all the words and a list of all the values of the words.
+
+then sort the list starting with the biggest word at index 0 
+
+then take the first element of list which should be the biggest word and make a for loop which iterates each character by n+1 each time it loops and checks the result against a word file containing each word.
+
+if the value does not match anything contained in the word file, move on to the next index (the second biggest word) and so on until it works
+
+then whichever number the loop hit, store that number and that number is the key.
